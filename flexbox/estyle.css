@@ -1,0 +1,108 @@
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-top: 16px;
+    margin-right: auto;
+}
+.border {
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+.item{
+    background-color: peru;
+    text-align: center;
+    border:1px solid #000000 ;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+
+}
+.item1{
+    background-color: peru;
+    text-align: center;
+    border:1px solid #000000 ;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.h-700{
+    height: 700px;
+}
+.h-300{
+    height: 300px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+
+  }
+
+.flex-container1{
+    display: flex;
+    flex-wrap: wrap-reverse ;
+}
+.flex-container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:baseline ;    
+    padding: 60px;
+}
+.flex-container4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center ;  
+    align-content: space-between;  
+
+}
+.flex-container5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-container6{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+
+}
+.align-self-start{
+    align-self: flex-start;
+}
+.order-1{
+    order: 0;
+}
+.order-2{
+    order: 2;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+.flex-grow-2{
+    flex-grow: 2;
+}
+
+.flex-shrink-0{
+    width: 700px;
+    flex-shrink: 0;
+}
+
+.flex-basis-1{
+    flex-basis: 50%;
+}
+
+.flex-1{
+    flex: 1; 
+}
+.flex-2{
+    flex: 1 0 300px; 
+}
